@@ -1,0 +1,114 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #070c16;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    height: 100px;
+    background-color: #1E293B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 200px;
+}
+
+.list li a{
+    text-decoration: none;
+    color:#F8F6F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.list li a:hover{
+    color:#B45309;
+    transition: color 0.4s ease;
+}
+
+.text{
+    padding: 20px;
+}
+
+.main-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #F8F6F0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main-info span{
+    color:#B45309;
+}
+
+.photos{
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.photos img{
+    width: 80%;
+    height: 80%;
+}
+
+.photo-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #9c9c9c;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.send-ideas{
+    padding: 0 20px;
+}
+
+.ideas{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #B45309;
+    font-size: 50px;
+}
+
+.email{
+    margin: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #F8F6F0;
+    font-size: 35px;
+}
+
+.email a{
+    color: #475e83;
+}
+.email a:hover{
+    color: #B45309;
+    transition: color 0.4s ease;
+}
+
+.form{
+    margin-top: 30px;
+    text-align: center;
+    color: #F8F6F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
