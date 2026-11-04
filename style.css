@@ -18,6 +18,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .list {
@@ -111,4 +112,41 @@ body{
     color: #F8F6F0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
+}
+
+.suggestions-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #B45309;
+    font-size: 30px;
+}
+
+.suggestions-form button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #F8F6F0;
+    font-size: 30px;
+    background-color: #B45309;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.suggestions-form button:hover{
+    cursor: pointer;
+}
+
+.suggestions-form input,
+.suggestions-form textarea {
+    width: 50%;
+    border-radius: 20px;
+    padding: 15px ; 
+    font-size: 20px; 
+    margin: 20px 0; 
+    color: #070c16;
 }

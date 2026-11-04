@@ -14,7 +14,7 @@
                 <nav>
                 <ul class="list">
                     <li><a href="#">Home</a></li>
-                    <li><a href="/Science-project/physics.html">Physics</a></li>
+                    <li><a href="/physics.html">Physics</a></li>
                     <li><a href="#">Math</a></li>
                     <li><a href="#">Astronomy</a></li>
                     <li><a href="#">Psychology</a></li>
@@ -33,7 +33,7 @@
                     astronomy and psychology.</span></h1>
                 </div>
                 <div class="photos">
-                    <img src="scientists.jpg">
+                    <img src="img/scientists.jpg">
                 </div>
                 <p class="photo-title">the photo above is called 
                     "Most Intellegent Photo"</p>
@@ -53,7 +53,13 @@
                 <p class="form">Or you can fill out this form:</p>
             </div>
 
-            
+            <form action="" method="POST" class="suggestions-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="feedback">Your suggestion:</label>
+    <textarea id="feedback" name="user_feedback"></textarea>
+                <button type="submit">Send</button>
+              </form>
         </section>
     </main>
 </body>
