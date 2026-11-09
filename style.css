@@ -150,3 +150,43 @@ body{
     margin: 20px 0; 
     color: #070c16;
 }
+
+/* physics page */
+
+.paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.line{
+    height: 3px;
+    width: 100%;
+    background-color: #B45309;
+    margin-top: 30px;
+}
+
+.container img{
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+    filter:brightness(50%);
+}
+
+.paragraph2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.paragraph2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+}
+
